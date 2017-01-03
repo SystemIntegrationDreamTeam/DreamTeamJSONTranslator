@@ -33,7 +33,6 @@ public class Translator {
         
     ConnectionFactory factory = new ConnectionFactory();
     factory.setHost("datdb.cphbusiness.dk");
-    factory.setVirtualHost("student");
     factory.setUsername("Dreamteam");
     factory.setPassword("bastian");
     Connection connection = factory.newConnection();
